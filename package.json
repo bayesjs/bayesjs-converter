@@ -5,6 +5,9 @@
   "author": "fhelwanger <fhelwanger@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "format": "prettier --write \"src/**/*.ts\"",
     "precommit": "lint-staged"
   },
   "devDependencies": {
