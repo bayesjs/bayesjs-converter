@@ -1,0 +1,1373 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reads tokens correctly 1`] = `
+Array [
+  Object {
+    "type": "net",
+  },
+  Object {
+    "type": "openbracket",
+  },
+  Object {
+    "type": "identifier",
+    "value": "node_size",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "openparen",
+  },
+  Object {
+    "type": "number",
+    "value": 80,
+  },
+  Object {
+    "type": "number",
+    "value": 40,
+  },
+  Object {
+    "type": "closeparen",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_DBN_Num_Slices",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "5",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Desc",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_OOBN_CheckConsistency",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "1",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_OOBN_FitExpand",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "1",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Zoom_ZoomFactor",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "100",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Groups_GroupColors",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Groups_GroupNames",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Groups_UserGroupsNo",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "0",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Utility_Link",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "63",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Probabilistic_Link",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "63",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Functional_Link",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "63",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Binding_Link",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "63",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Information_Arc",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "63",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Color_Interface",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "21",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Color_Instance",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "0",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Color_DiscreteFunction",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "5",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Color_Function",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "4",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Color_Utility",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "36",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Color_Decision",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "17",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Color_ContinuousChance",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "48",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Color_DiscreteChance",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "16",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Monitor_InitSD",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "2",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Monitor_Utility_Arrange",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "0",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Monitor_Mean_Variance",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "1",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Monitor_Chance_Utility",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "1",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Monitor_InitStates",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "5",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Monitor_OpenGraph",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "0",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Monitor_GraphPrecision",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "100",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Monitor_AutoUpdGraph",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "0",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Compile_MaxMinimalSeparators",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "100000",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Compile_ApproxEpsilon",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "1.0E-5",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Compile_Approximate",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "0",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Compile_SaveToMemory",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "0",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Compile_Compress",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "0",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Compile_TriangMethod",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "0",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Propagate_AutoNormal",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "1",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Propagate_AutoSum",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "1",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Propagate_Auto",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "1",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Font_Italic",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "0",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Font_Weight",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "400",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Font_Size",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "-12",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Font_Name",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=11]",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Grid_GridShow",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "0",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Grid_GridSnap",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "0",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Grid_Y",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "40",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Grid_X",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "40",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "closebracket",
+  },
+  Object {
+    "type": "node",
+  },
+  Object {
+    "type": "identifier",
+    "value": "GRAMA_MOLHADA",
+  },
+  Object {
+    "type": "openbracket",
+  },
+  Object {
+    "type": "identifier",
+    "value": "label",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "position",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "openparen",
+  },
+  Object {
+    "type": "number",
+    "value": 283,
+  },
+  Object {
+    "type": "number",
+    "value": 82,
+  },
+  Object {
+    "type": "closeparen",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "states",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "openparen",
+  },
+  Object {
+    "type": "string",
+    "value": "Sim",
+  },
+  Object {
+    "type": "string",
+    "value": "Não",
+  },
+  Object {
+    "type": "closeparen",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_NodeSize",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "(141, 59)",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Group",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "0",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Desc",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_State_1",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_State_0",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "closebracket",
+  },
+  Object {
+    "type": "node",
+  },
+  Object {
+    "type": "identifier",
+    "value": "REGADOR",
+  },
+  Object {
+    "type": "openbracket",
+  },
+  Object {
+    "type": "identifier",
+    "value": "label",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "position",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "openparen",
+  },
+  Object {
+    "type": "number",
+    "value": 147,
+  },
+  Object {
+    "type": "number",
+    "value": 185,
+  },
+  Object {
+    "type": "closeparen",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "states",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "openparen",
+  },
+  Object {
+    "type": "string",
+    "value": "Sim",
+  },
+  Object {
+    "type": "string",
+    "value": "Não",
+  },
+  Object {
+    "type": "closeparen",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_LinkGroup",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "[GRAMA_MOLHADA:0]",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_LinkMode",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "[GRAMA_MOLHADA:0]",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Group",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "0",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Desc",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_State_1",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_State_0",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "closebracket",
+  },
+  Object {
+    "type": "node",
+  },
+  Object {
+    "type": "identifier",
+    "value": "CHUVA",
+  },
+  Object {
+    "type": "openbracket",
+  },
+  Object {
+    "type": "identifier",
+    "value": "label",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "position",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "openparen",
+  },
+  Object {
+    "type": "number",
+    "value": 397,
+  },
+  Object {
+    "type": "number",
+    "value": 190,
+  },
+  Object {
+    "type": "closeparen",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "states",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "openparen",
+  },
+  Object {
+    "type": "string",
+    "value": "Sim",
+  },
+  Object {
+    "type": "string",
+    "value": "Não",
+  },
+  Object {
+    "type": "closeparen",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_LinkGroup",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "[REGADOR:0][GRAMA_MOLHADA:0]",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_LinkMode",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "[REGADOR:0][GRAMA_MOLHADA:0]",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Group",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "0",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_Desc",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_State_1",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "identifier",
+    "value": "HR_State_0",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "closebracket",
+  },
+  Object {
+    "type": "potential",
+  },
+  Object {
+    "type": "openparen",
+  },
+  Object {
+    "type": "identifier",
+    "value": "GRAMA_MOLHADA",
+  },
+  Object {
+    "type": "pipe",
+  },
+  Object {
+    "type": "identifier",
+    "value": "REGADOR",
+  },
+  Object {
+    "type": "identifier",
+    "value": "CHUVA",
+  },
+  Object {
+    "type": "closeparen",
+  },
+  Object {
+    "type": "openbracket",
+  },
+  Object {
+    "type": "identifier",
+    "value": "data",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "openparen",
+  },
+  Object {
+    "type": "openparen",
+  },
+  Object {
+    "type": "openparen",
+  },
+  Object {
+    "type": "number",
+    "value": 0.99,
+  },
+  Object {
+    "type": "number",
+    "value": 0.01,
+  },
+  Object {
+    "type": "closeparen",
+  },
+  Object {
+    "type": "openparen",
+  },
+  Object {
+    "type": "number",
+    "value": 0.9,
+  },
+  Object {
+    "type": "number",
+    "value": 0.1,
+  },
+  Object {
+    "type": "closeparen",
+  },
+  Object {
+    "type": "closeparen",
+  },
+  Object {
+    "type": "openparen",
+  },
+  Object {
+    "type": "openparen",
+  },
+  Object {
+    "type": "number",
+    "value": 0.8,
+  },
+  Object {
+    "type": "number",
+    "value": 0.2,
+  },
+  Object {
+    "type": "closeparen",
+  },
+  Object {
+    "type": "openparen",
+  },
+  Object {
+    "type": "number",
+    "value": 0,
+  },
+  Object {
+    "type": "number",
+    "value": 1,
+  },
+  Object {
+    "type": "closeparen",
+  },
+  Object {
+    "type": "closeparen",
+  },
+  Object {
+    "type": "closeparen",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "closebracket",
+  },
+  Object {
+    "type": "potential",
+  },
+  Object {
+    "type": "openparen",
+  },
+  Object {
+    "type": "identifier",
+    "value": "REGADOR",
+  },
+  Object {
+    "type": "pipe",
+  },
+  Object {
+    "type": "identifier",
+    "value": "CHUVA",
+  },
+  Object {
+    "type": "closeparen",
+  },
+  Object {
+    "type": "openbracket",
+  },
+  Object {
+    "type": "identifier",
+    "value": "data",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "openparen",
+  },
+  Object {
+    "type": "openparen",
+  },
+  Object {
+    "type": "number",
+    "value": 0.01,
+  },
+  Object {
+    "type": "number",
+    "value": 0.99,
+  },
+  Object {
+    "type": "closeparen",
+  },
+  Object {
+    "type": "openparen",
+  },
+  Object {
+    "type": "number",
+    "value": 0.4,
+  },
+  Object {
+    "type": "number",
+    "value": 0.6,
+  },
+  Object {
+    "type": "closeparen",
+  },
+  Object {
+    "type": "closeparen",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "closebracket",
+  },
+  Object {
+    "type": "potential",
+  },
+  Object {
+    "type": "openparen",
+  },
+  Object {
+    "type": "identifier",
+    "value": "CHUVA",
+  },
+  Object {
+    "type": "closeparen",
+  },
+  Object {
+    "type": "openbracket",
+  },
+  Object {
+    "type": "identifier",
+    "value": "data",
+  },
+  Object {
+    "type": "equal",
+  },
+  Object {
+    "type": "openparen",
+  },
+  Object {
+    "type": "number",
+    "value": 0.2,
+  },
+  Object {
+    "type": "number",
+    "value": 0.8,
+  },
+  Object {
+    "type": "closeparen",
+  },
+  Object {
+    "type": "semicolon",
+  },
+  Object {
+    "type": "closebracket",
+  },
+]
+`;
