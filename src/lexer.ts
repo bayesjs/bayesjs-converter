@@ -4,8 +4,8 @@ const regexWhitespace = /\s/;
 const regexNumber = /[0-9]/;
 const regexIdentifier = /[a-z0-9_]/i;
 
-export default (source: string): Token[] => {
-  const tokens: Token[] = [];
+export default (source: string): Array<Token> => {
+  const tokens: Array<Token> = [];
 
   source = source.replace(/\\303\\243/g, 'ã');
 

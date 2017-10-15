@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`reads tokens correctly 1`] = `
+exports[`converts network correctly 1`] = `
 Array [
   Object {
     "type": "net",
@@ -1370,4 +1370,495 @@ Array [
     "type": "closebracket",
   },
 ]
+`;
+
+exports[`converts network correctly 2`] = `
+Object {
+  "items": Array [
+    Object {
+      "properties": Array [
+        Object {
+          "name": "node_size",
+          "type": "property",
+          "value": Array [
+            80,
+            40,
+          ],
+        },
+        Object {
+          "name": "HR_DBN_Num_Slices",
+          "type": "property",
+          "value": "5",
+        },
+        Object {
+          "name": "HR_Desc",
+          "type": "property",
+          "value": "",
+        },
+        Object {
+          "name": "HR_OOBN_CheckConsistency",
+          "type": "property",
+          "value": "1",
+        },
+        Object {
+          "name": "HR_OOBN_FitExpand",
+          "type": "property",
+          "value": "1",
+        },
+        Object {
+          "name": "HR_Zoom_ZoomFactor",
+          "type": "property",
+          "value": "100",
+        },
+        Object {
+          "name": "HR_Groups_GroupColors",
+          "type": "property",
+          "value": "",
+        },
+        Object {
+          "name": "HR_Groups_GroupNames",
+          "type": "property",
+          "value": "",
+        },
+        Object {
+          "name": "HR_Groups_UserGroupsNo",
+          "type": "property",
+          "value": "0",
+        },
+        Object {
+          "name": "HR_Utility_Link",
+          "type": "property",
+          "value": "63",
+        },
+        Object {
+          "name": "HR_Probabilistic_Link",
+          "type": "property",
+          "value": "63",
+        },
+        Object {
+          "name": "HR_Functional_Link",
+          "type": "property",
+          "value": "63",
+        },
+        Object {
+          "name": "HR_Binding_Link",
+          "type": "property",
+          "value": "63",
+        },
+        Object {
+          "name": "HR_Information_Arc",
+          "type": "property",
+          "value": "63",
+        },
+        Object {
+          "name": "HR_Color_Interface",
+          "type": "property",
+          "value": "21",
+        },
+        Object {
+          "name": "HR_Color_Instance",
+          "type": "property",
+          "value": "0",
+        },
+        Object {
+          "name": "HR_Color_DiscreteFunction",
+          "type": "property",
+          "value": "5",
+        },
+        Object {
+          "name": "HR_Color_Function",
+          "type": "property",
+          "value": "4",
+        },
+        Object {
+          "name": "HR_Color_Utility",
+          "type": "property",
+          "value": "36",
+        },
+        Object {
+          "name": "HR_Color_Decision",
+          "type": "property",
+          "value": "17",
+        },
+        Object {
+          "name": "HR_Color_ContinuousChance",
+          "type": "property",
+          "value": "48",
+        },
+        Object {
+          "name": "HR_Color_DiscreteChance",
+          "type": "property",
+          "value": "16",
+        },
+        Object {
+          "name": "HR_Monitor_InitSD",
+          "type": "property",
+          "value": "2",
+        },
+        Object {
+          "name": "HR_Monitor_Utility_Arrange",
+          "type": "property",
+          "value": "0",
+        },
+        Object {
+          "name": "HR_Monitor_Mean_Variance",
+          "type": "property",
+          "value": "1",
+        },
+        Object {
+          "name": "HR_Monitor_Chance_Utility",
+          "type": "property",
+          "value": "1",
+        },
+        Object {
+          "name": "HR_Monitor_InitStates",
+          "type": "property",
+          "value": "5",
+        },
+        Object {
+          "name": "HR_Monitor_OpenGraph",
+          "type": "property",
+          "value": "0",
+        },
+        Object {
+          "name": "HR_Monitor_GraphPrecision",
+          "type": "property",
+          "value": "100",
+        },
+        Object {
+          "name": "HR_Monitor_AutoUpdGraph",
+          "type": "property",
+          "value": "0",
+        },
+        Object {
+          "name": "HR_Compile_MaxMinimalSeparators",
+          "type": "property",
+          "value": "100000",
+        },
+        Object {
+          "name": "HR_Compile_ApproxEpsilon",
+          "type": "property",
+          "value": "1.0E-5",
+        },
+        Object {
+          "name": "HR_Compile_Approximate",
+          "type": "property",
+          "value": "0",
+        },
+        Object {
+          "name": "HR_Compile_SaveToMemory",
+          "type": "property",
+          "value": "0",
+        },
+        Object {
+          "name": "HR_Compile_Compress",
+          "type": "property",
+          "value": "0",
+        },
+        Object {
+          "name": "HR_Compile_TriangMethod",
+          "type": "property",
+          "value": "0",
+        },
+        Object {
+          "name": "HR_Propagate_AutoNormal",
+          "type": "property",
+          "value": "1",
+        },
+        Object {
+          "name": "HR_Propagate_AutoSum",
+          "type": "property",
+          "value": "1",
+        },
+        Object {
+          "name": "HR_Propagate_Auto",
+          "type": "property",
+          "value": "1",
+        },
+        Object {
+          "name": "HR_Font_Italic",
+          "type": "property",
+          "value": "0",
+        },
+        Object {
+          "name": "HR_Font_Weight",
+          "type": "property",
+          "value": "400",
+        },
+        Object {
+          "name": "HR_Font_Size",
+          "type": "property",
+          "value": "-12",
+        },
+        Object {
+          "name": "HR_Font_Name",
+          "type": "property",
+          "value": "javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=11]",
+        },
+        Object {
+          "name": "HR_Grid_GridShow",
+          "type": "property",
+          "value": "0",
+        },
+        Object {
+          "name": "HR_Grid_GridSnap",
+          "type": "property",
+          "value": "0",
+        },
+        Object {
+          "name": "HR_Grid_Y",
+          "type": "property",
+          "value": "40",
+        },
+        Object {
+          "name": "HR_Grid_X",
+          "type": "property",
+          "value": "40",
+        },
+      ],
+      "type": "net",
+    },
+    Object {
+      "name": "GRAMA_MOLHADA",
+      "properties": Array [
+        Object {
+          "name": "label",
+          "type": "property",
+          "value": "",
+        },
+        Object {
+          "name": "position",
+          "type": "property",
+          "value": Array [
+            283,
+            82,
+          ],
+        },
+        Object {
+          "name": "states",
+          "type": "property",
+          "value": Array [
+            "Sim",
+            "Não",
+          ],
+        },
+        Object {
+          "name": "HR_NodeSize",
+          "type": "property",
+          "value": "(141, 59)",
+        },
+        Object {
+          "name": "HR_Group",
+          "type": "property",
+          "value": "0",
+        },
+        Object {
+          "name": "HR_Desc",
+          "type": "property",
+          "value": "",
+        },
+        Object {
+          "name": "HR_State_1",
+          "type": "property",
+          "value": "",
+        },
+        Object {
+          "name": "HR_State_0",
+          "type": "property",
+          "value": "",
+        },
+      ],
+      "type": "node",
+    },
+    Object {
+      "name": "REGADOR",
+      "properties": Array [
+        Object {
+          "name": "label",
+          "type": "property",
+          "value": "",
+        },
+        Object {
+          "name": "position",
+          "type": "property",
+          "value": Array [
+            147,
+            185,
+          ],
+        },
+        Object {
+          "name": "states",
+          "type": "property",
+          "value": Array [
+            "Sim",
+            "Não",
+          ],
+        },
+        Object {
+          "name": "HR_LinkGroup",
+          "type": "property",
+          "value": "[GRAMA_MOLHADA:0]",
+        },
+        Object {
+          "name": "HR_LinkMode",
+          "type": "property",
+          "value": "[GRAMA_MOLHADA:0]",
+        },
+        Object {
+          "name": "HR_Group",
+          "type": "property",
+          "value": "0",
+        },
+        Object {
+          "name": "HR_Desc",
+          "type": "property",
+          "value": "",
+        },
+        Object {
+          "name": "HR_State_1",
+          "type": "property",
+          "value": "",
+        },
+        Object {
+          "name": "HR_State_0",
+          "type": "property",
+          "value": "",
+        },
+      ],
+      "type": "node",
+    },
+    Object {
+      "name": "CHUVA",
+      "properties": Array [
+        Object {
+          "name": "label",
+          "type": "property",
+          "value": "",
+        },
+        Object {
+          "name": "position",
+          "type": "property",
+          "value": Array [
+            397,
+            190,
+          ],
+        },
+        Object {
+          "name": "states",
+          "type": "property",
+          "value": Array [
+            "Sim",
+            "Não",
+          ],
+        },
+        Object {
+          "name": "HR_LinkGroup",
+          "type": "property",
+          "value": "[REGADOR:0][GRAMA_MOLHADA:0]",
+        },
+        Object {
+          "name": "HR_LinkMode",
+          "type": "property",
+          "value": "[REGADOR:0][GRAMA_MOLHADA:0]",
+        },
+        Object {
+          "name": "HR_Group",
+          "type": "property",
+          "value": "0",
+        },
+        Object {
+          "name": "HR_Desc",
+          "type": "property",
+          "value": "",
+        },
+        Object {
+          "name": "HR_State_1",
+          "type": "property",
+          "value": "",
+        },
+        Object {
+          "name": "HR_State_0",
+          "type": "property",
+          "value": "",
+        },
+      ],
+      "type": "node",
+    },
+    Object {
+      "given": Array [
+        "REGADOR",
+        "CHUVA",
+      ],
+      "node": "GRAMA_MOLHADA",
+      "properties": Array [
+        Object {
+          "name": "data",
+          "type": "property",
+          "value": Array [
+            Array [
+              Array [
+                0.99,
+                0.01,
+              ],
+              Array [
+                0.9,
+                0.1,
+              ],
+            ],
+            Array [
+              Array [
+                0.8,
+                0.2,
+              ],
+              Array [
+                0,
+                1,
+              ],
+            ],
+          ],
+        },
+      ],
+      "type": "potential",
+    },
+    Object {
+      "given": Array [
+        "CHUVA",
+      ],
+      "node": "REGADOR",
+      "properties": Array [
+        Object {
+          "name": "data",
+          "type": "property",
+          "value": Array [
+            Array [
+              0.01,
+              0.99,
+            ],
+            Array [
+              0.4,
+              0.6,
+            ],
+          ],
+        },
+      ],
+      "type": "potential",
+    },
+    Object {
+      "given": Array [],
+      "node": "CHUVA",
+      "properties": Array [
+        Object {
+          "name": "data",
+          "type": "property",
+          "value": Array [
+            0.2,
+            0.8,
+          ],
+        },
+      ],
+      "type": "potential",
+    },
+  ],
+  "type": "root",
+}
 `;
