@@ -4,6 +4,7 @@
   "repository": "https://github.com/fhelwanger/bayesjs-converter.git",
   "author": "fhelwanger <fhelwanger@gmail.com>",
   "license": "MIT",
+  "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
     "test": "jest",
