@@ -9,7 +9,8 @@
     "build": "tsc",
     "test": "jest",
     "format": "prettier --write \"src/**/*.ts\"",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "prepush": "jest"
   },
   "devDependencies": {
     "@types/jest": "^21.1.2",

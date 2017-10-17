@@ -1,8 +1,16 @@
 import * as fs from 'fs';
 import * as path from 'path';
+import { convert } from './index';
 import lexer from './lexer';
 import parser from './parser';
 import converter from './converter';
+
+it('converts network correctly', () => {
+  const source = readNetwork('chuva');
+  const bayesnet = convert(source);
+
+  expect(bayesnet).toMatchSnapshot();
+});
 
 it('converts network step by step correctly', () => {
   const source = readNetwork('chuva');
