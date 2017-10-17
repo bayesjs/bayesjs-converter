@@ -4,7 +4,7 @@ import lexer from './lexer';
 import parser from './parser';
 import converter from './converter';
 
-it('converts network correctly', () => {
+it('converts network step by step correctly', () => {
   const source = readNetwork('chuva');
   const tokens = lexer(source);
   const ast = parser(tokens);

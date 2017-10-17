@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`converts network correctly 1`] = `
+exports[`converts network step by step correctly 1`] = `
 Array [
   Object {
     "type": "net",
@@ -1372,7 +1372,7 @@ Array [
 ]
 `;
 
-exports[`converts network correctly 2`] = `
+exports[`converts network step by step correctly 2`] = `
 Object {
   "items": Array [
     Object {
@@ -1863,7 +1863,7 @@ Object {
 }
 `;
 
-exports[`converts network correctly 3`] = `
+exports[`converts network step by step correctly 3`] = `
 Object {
   "network": Object {
     "beliefs": Object {},
