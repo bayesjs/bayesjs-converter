@@ -1862,3 +1862,128 @@ Object {
   "type": "root",
 }
 `;
+
+exports[`converts network correctly 3`] = `
+Object {
+  "network": Object {
+    "beliefs": Object {},
+    "height": 500,
+    "name": "Rede Bayesiana",
+    "propertiesPanelVisible": true,
+    "selectedNodes": Array [],
+    "width": 800,
+  },
+  "nodes": Array [
+    Object {
+      "cpt": Array [
+        Object {
+          "then": Object {
+            "Não": 0.01,
+            "Sim": 0.99,
+          },
+          "when": Object {
+            "CHUVA": "Sim",
+            "REGADOR": "Sim",
+          },
+        },
+        Object {
+          "then": Object {
+            "Não": 0.1,
+            "Sim": 0.9,
+          },
+          "when": Object {
+            "CHUVA": "Não",
+            "REGADOR": "Sim",
+          },
+        },
+        Object {
+          "then": Object {
+            "Não": 0.2,
+            "Sim": 0.8,
+          },
+          "when": Object {
+            "CHUVA": "Sim",
+            "REGADOR": "Não",
+          },
+        },
+        Object {
+          "then": Object {
+            "Não": 1,
+            "Sim": 0,
+          },
+          "when": Object {
+            "CHUVA": "Não",
+            "REGADOR": "Não",
+          },
+        },
+      ],
+      "id": "GRAMA_MOLHADA",
+      "parents": Array [
+        "REGADOR",
+        "CHUVA",
+      ],
+      "states": Array [
+        "Sim",
+        "Não",
+      ],
+    },
+    Object {
+      "cpt": Array [
+        Object {
+          "then": Object {
+            "Não": 0.99,
+            "Sim": 0.01,
+          },
+          "when": Object {
+            "CHUVA": "Sim",
+          },
+        },
+        Object {
+          "then": Object {
+            "Não": 0.6,
+            "Sim": 0.4,
+          },
+          "when": Object {
+            "CHUVA": "Não",
+          },
+        },
+      ],
+      "id": "REGADOR",
+      "parents": Array [
+        "CHUVA",
+      ],
+      "states": Array [
+        "Sim",
+        "Não",
+      ],
+    },
+    Object {
+      "cpt": Object {
+        "Não": 0.8,
+        "Sim": 0.2,
+      },
+      "id": "CHUVA",
+      "parents": Array [],
+      "states": Array [
+        "Sim",
+        "Não",
+      ],
+    },
+  ],
+  "positions": Object {
+    "CHUVA": Object {
+      "x": 397,
+      "y": 190,
+    },
+    "GRAMA_MOLHADA": Object {
+      "x": 283,
+      "y": 82,
+    },
+    "REGADOR": Object {
+      "x": 147,
+      "y": 185,
+    },
+  },
+  "version": 2,
+}
+`;
