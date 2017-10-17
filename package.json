@@ -1,10 +1,13 @@
 {
   "name": "bayesjs-converter",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "repository": "https://github.com/fhelwanger/bayesjs-converter.git",
   "author": "fhelwanger <fhelwanger@gmail.com>",
   "license": "MIT",
   "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "jest",
